@@ -9,6 +9,7 @@ export const REDIRECT_PATH_KEY = 'redirectPath';
 const router = createBrowserRouter([
   { path: '/login', element: <LoginView /> },
   { path: '', element: <ProtectedRoute component={<MainView />} /> },
+   { path: '/secret', element: <ProtectedRoute component={<SecretView />} /> },
 ]);
 
 export default router;

@@ -1,7 +1,7 @@
 export function SecretView() {
   return (
     <div className="m-m">
-     <h1>SecretView</h1>
+     <h1>This is secretview</h1>
     </div>
   )
 }
